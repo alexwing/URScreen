@@ -181,8 +181,9 @@ $env:UR_LIVE_HOST = "127.0.0.1"
 ## Pendiente
 
 - Arrastre con un dedo (hoy no hace nada), teclas multimedia, otras distribuciones de teclado.
-- La autenticación con contraseña sigue la fórmula de la interfaz web del servidor y está fijada con pruebas con valores
-  calculados aparte; el modo «usuarios» no se ha probado contra un servidor.
+- La autenticación con contraseña sigue la fórmula de la interfaz web del servidor, está fijada con pruebas con valores
+  calculados aparte y se ha verificado en vivo contra un servidor con contraseña (el log del servidor la da por buena:
+  «authenticated without encryption»); el modo «usuarios» no se ha probado contra un servidor.
 - Reducir latencia: decodificar el JPEG con `inBitmap` y reutilizar buffers.
 - Reconexión automática y `KeepAlive`.
 
