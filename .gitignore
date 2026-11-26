@@ -1,0 +1,18 @@
+*.iml
+.gradle/
+.kotlin/
+/local.properties
+/build/
+/app/build/
+.idea/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# Claves de firma y secretos: nunca al repositorio
+*.jks
+*.keystore
+*.p12
+release-passwords.txt

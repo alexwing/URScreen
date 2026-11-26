@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Primer plano del icono adaptativo: un monitor con un cursor dentro. Todo cabe en el círculo central de 66 x 66
+    (la zona segura de los iconos adaptativos). También sirve de capa monocroma para los iconos temáticos.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Marco de la pantalla -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M31,32 L77,32 Q80,32 80,35 L80,63 Q80,66 77,66 L31,66 Q28,66 28,63 L28,35 Q28,32 31,32 Z"
+        android:strokeColor="#FF8FBBFF"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round" />
+    <!-- Pie y base -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,66 L54,74 M44,75 L64,75"
+        android:strokeColor="#FF8FBBFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+    <!-- Cursor -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M44,39 L44,58 L48.8,53.6 L52.2,61.4 L56,59.8 L52.6,52.2 L59,52 Z"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeLineJoin="round" />
+</vector>
